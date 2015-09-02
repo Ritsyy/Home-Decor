@@ -1,0 +1,341 @@
+@charset "UTF-8";
+ CSS Document * {
+	margin: 0px;
+	padding: 0px;
+}
+body, html {
+	height: 100%;
+}
+body {
+	
+	font-size: 14px;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+#header {
+	width: 1000px;
+	height: 110px;
+}
+
+#nav {
+	width: 1000px;
+	height: 45px;
+	background-color:#F09;
+	margin-bottom:30px;
+	border-radius:10px;
+}
+#nav ul li {
+	display: inline;
+	list-style: none;
+
+
+}
+#nav ul li a {
+	color: #FFF;
+	padding: 0px 20px;
+	text-decoration: none;
+	height: 45px;
+	line-height: 45px;
+	display: block;
+	text-shadow: 0px -1px 0px pink;
+	float: left;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 500ms;
+	-webkit-transition-property: all;
+}
+#nav ul li a:hover, #nav ul li a.current {
+	text-shadow: none;
+	color:#0CF;
+	text-decoration:underline;
+}
+#banner {
+	width: 1000px;
+	height: 400px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	background-image: url(../images/firstimg.jpg);
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 500ms;
+}
+#banner:hover {
+	background-image:url(../images/HOMEPAGE-071514-slide1.jpg);
+}
+#banner-inner {
+	width: 1000px;
+	height: 200px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+#content {
+	width: 1000px;
+	height: auto;
+	overflow:hidden;
+}
+.content-block {
+	width: 480px;
+	height: 270px;
+	border-radius: 5px;
+	background-color: #fff;
+	float: left;
+	margin-right:20px;
+	background-image:url(../images/070814-Summer-Sale.jpg);
+}
+.content-block-right {
+	margin-right: 0px;
+	float: right;
+	background-image:url(../images/070814-Furniture.jpg);
+}
+#contact-left {
+	width: 700px;
+	min-height: 500px;
+	background-color: #FFF;
+	border-radius: 5px;
+	float: left;
+	margin-right: 20px;
+	
+}
+#contact-right {
+	width: 280px;
+	min-height: 500px;
+	background-color: #FFF;
+	border-radius: 5px;
+	float: left;
+}
+
+#footer {
+	width: 1000px;
+	height: 150px;
+	margin-top:40px;
+	background-image:url(../images/star.gif);
+	border-radius:10px;
+}
+
+.product-box {
+	width: 1000px;
+	height: 250px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	background-color: #FFF;
+}
+#pd1
+{
+  width:296px;
+  height:250px;
+  margin-right:40px;
+  float:left;
+  background-image:url(../images/1267-bags-accessories.jpg);
+  margin-bottom:50px;	
+}
+#pd1:hover
+{
+ border:1px solid #F09;
+}
+#pd2
+{
+  width:298px;
+  height:250px;
+  margin-right:40px;
+  float:left;
+  background-image:url(../images/1105-throw-pillows.jpg);
+  margin-bottom:50px;	
+}
+#pd2:hover
+{
+ border:1px solid #F09;
+}
+#pd3
+{
+  width:298px;
+  height:250px;
+  margin-right:40px;
+  float:left;
+  background-image:url(../images/070814-mirrors.jpg);
+  margin-bottom:50px;	
+}
+#pd3:hover
+{
+ border:1px solid #F09;
+}
+#pd4
+{
+  width:298px;
+  height:250px;
+  margin-right:40px;
+  float:left;
+  background-image:url(../images/070814-Summer-Sale.jpg);
+  margin-bottom:50px;	
+}
+#pd4:hover
+{
+ border:1px solid #F09;
+}
+#pd5
+{
+  width:298px;
+  height:250px;
+  margin-right:40px;
+  float:left;
+  background-image:url(../images/1787-view-all.jpg);
+  margin-bottom:50px;	
+}
+#pd5:hover
+{
+ border:1px solid #F09;
+}
+#pd6
+{
+  width:298px;
+  height:250px;
+  margin-right:40px;
+  float:left;
+  background-image:url(../images/1932-Color-Palette-Paradise.jpg);
+  margin-bottom:50px;	
+}
+#pd6:hover
+{
+ border:1px solid #F09;
+}
+#pd1-right
+{
+ width:298px;
+ height:250px;
+ float:right;
+ margin-right:0px;
+ margin-bottom:30px;
+ background-image:url(../images/1614-pets.jpg);	
+	
+}
+#pd1-right:hover
+{
+ border:1px solid #F09;
+}
+#pd2-right
+{
+ width:298px;
+ height:250px;
+ float:right;
+ margin-right:0px;
+ margin-bottom:30px;
+ border:1px solid #FFF;
+ background-image:url(../images/W9044_0.jpg);	
+	
+}
+#pd2-right:hover
+{
+ border:1px solid #F09;
+}
+#pd3-right
+{
+ width:298px;
+ height:250px;
+ float:right;
+ margin-right:0px;
+ margin-bottom:30px;
+ background-image:url(../images/1048-him.jpg);	
+	
+}
+#pd3-right:hover
+{
+ border:1px solid #F09;
+}
+
+#banner-back {
+	background-image: url(../images/HOMEPAGE-071514-slide1.jpg);
+}
+#banner-furniture
+{
+	background-image:url(../images/1001-furniture.jpg);
+	width:680px;
+	height:300px;	
+	margin-bottom:50px;
+	margin-right:10px;
+	background-repeat:no-repeat;
+}
+#banner-furniture-up
+{
+	background-color:#999;
+	width:300px;
+	height:280px;
+	float:right;
+	background-image:url(../images/1634-Coastal.jpg);
+		
+}
+#text
+{
+	text-align:end;
+	
+	
+}
+#t
+{
+margin-left:10px;
+margin-right:10px;	
+
+}
+label
+{
+ text-align:center;
+ margin-left:100px;
+ 	
+}
+div p
+{
+	text-align:justify;
+	color:#633;
+	height:800px;
+	width:1000px;
+	
+}
+
+#box
+{
+	
+width:1000px;
+		height:500px;
+		background-color:#69F;
+		-webkit-animation-delay:1s;
+		-webkit-animation-duration:20s;
+		-webkit-animation-name:home;
+		-webkit-animation-iteration-count:infinite;
+		-webkit-animation-direction:normal;
+		-webkit-animation-timing-function:ease;
+		background-image:url(../images/1033-accessories.jpg);	
+}
+
+@-webkit-keyframes home
+{
+
+	0%
+	{
+		background-image:url(../images/1001-furniture%20(1).jpg);
+	}
+	
+	20%
+	{
+		background-image:url(../images/firstimg.jpg);	
+	}
+	40%
+	{
+	    background-image:url(../images/1033-accessories.jpg);
+			
+	}
+	60%
+	{
+	 background-image:url(../images/1025-gifts.jpg);
+	 	
+	}
+	80%
+	{
+		background-image:url(../images/1122-new-arrivals.jpg);	
+	}
+	100%
+	{
+	  background-image:url(../images/1105-throw-pillows.jpg);	
+	}
+}
